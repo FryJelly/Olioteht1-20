@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E62C8798-A5A4-40C0-B3FB-6A4C2C189052}</ProjectGuid>
+    <ProjectGuid>{A963F4C7-E625-4A37-85B5-BBA4784FDCEE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Olioteht1_20</RootNamespace>
-    <AssemblyName>Olioteht1-20</AssemblyName>
+    <RootNamespace>Olioteht2</RootNamespace>
+    <AssemblyName>Olioteht2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="teht2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

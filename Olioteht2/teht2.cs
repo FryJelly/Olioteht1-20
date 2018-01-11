@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Olioteht1_20
+namespace Olioteht2
 {
-    class Program
+    class teht2
     {
         static void Main(string[] args)
         {
