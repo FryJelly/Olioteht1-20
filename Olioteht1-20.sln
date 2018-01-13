@@ -11,6 +11,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht3", "Olioteht3\Olio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht4", "Olioteht4\Olioteht4.csproj", "{8AA32273-459E-4E78-A8BA-BAD517888B1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht5", "Olioteht5\Olioteht5.csproj", "{958477C0-8901-41EA-866F-5D0795D1D484}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht6", "Olioteht6\Olioteht6.csproj", "{88F863CA-66AD-494D-A329-86D8285C83FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht7", "Olioteht7\Olioteht7.csproj", "{D4153C4A-4C78-4607-A5E1-D425DF47D01D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht8", "Olioteht8\Olioteht8.csproj", "{8F170C7A-0E33-41E0-B2D0-5B22D70449C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht9", "Olioteht9\Olioteht9.csproj", "{D1B8F2C8-75F3-4952-87AE-5BEE8723804C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht10", "Olioteht10\Olioteht10.csproj", "{3421B7D4-4E7D-40CE-ABB2-54C757C32917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht11", "Olioteht11\Olioteht11.csproj", "{D944BE34-A344-4855-86AC-054CE3A54E47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +47,34 @@ Global
 		{8AA32273-459E-4E78-A8BA-BAD517888B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AA32273-459E-4E78-A8BA-BAD517888B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AA32273-459E-4E78-A8BA-BAD517888B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958477C0-8901-41EA-866F-5D0795D1D484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958477C0-8901-41EA-866F-5D0795D1D484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958477C0-8901-41EA-866F-5D0795D1D484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958477C0-8901-41EA-866F-5D0795D1D484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F863CA-66AD-494D-A329-86D8285C83FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F863CA-66AD-494D-A329-86D8285C83FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F863CA-66AD-494D-A329-86D8285C83FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F863CA-66AD-494D-A329-86D8285C83FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4153C4A-4C78-4607-A5E1-D425DF47D01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4153C4A-4C78-4607-A5E1-D425DF47D01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4153C4A-4C78-4607-A5E1-D425DF47D01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4153C4A-4C78-4607-A5E1-D425DF47D01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F170C7A-0E33-41E0-B2D0-5B22D70449C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F170C7A-0E33-41E0-B2D0-5B22D70449C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F170C7A-0E33-41E0-B2D0-5B22D70449C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F170C7A-0E33-41E0-B2D0-5B22D70449C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B8F2C8-75F3-4952-87AE-5BEE8723804C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B8F2C8-75F3-4952-87AE-5BEE8723804C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B8F2C8-75F3-4952-87AE-5BEE8723804C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B8F2C8-75F3-4952-87AE-5BEE8723804C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3421B7D4-4E7D-40CE-ABB2-54C757C32917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3421B7D4-4E7D-40CE-ABB2-54C757C32917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3421B7D4-4E7D-40CE-ABB2-54C757C32917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3421B7D4-4E7D-40CE-ABB2-54C757C32917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D944BE34-A344-4855-86AC-054CE3A54E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D944BE34-A344-4855-86AC-054CE3A54E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D944BE34-A344-4855-86AC-054CE3A54E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D944BE34-A344-4855-86AC-054CE3A54E47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
