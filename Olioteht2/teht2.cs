@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Tee ohjelma, jossa annetaan oppilaalle koulunumero seuraavan taulukon mukaan (pistemäärä kysytään ja ohjelma tulostaa numeron): 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

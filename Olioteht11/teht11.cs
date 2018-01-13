@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Olioteht11
 {
-    class Program
+    class teht11
     {
         static void Main(string[] args)
         {

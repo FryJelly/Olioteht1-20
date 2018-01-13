@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Tee ohjelma, joka kysyy käyttäjältä kolme lukua ja tulostaa niiden summan ja keskiarvon. 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

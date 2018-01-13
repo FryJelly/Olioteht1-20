@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Olioteht10
 {
-    class Program
+    class teht10
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
