@@ -10,6 +10,18 @@ namespace Olioteht11
     {
         static void Main(string[] args)
         {
+            int number;
+            Console.Write("Give a number: ");
+            int.TryParse(Console.ReadLine(), out number);
+            for (int i = 0; i < number; i++)
+            {
+                for (int b = -1; b < i; b++)
+                {
+                   Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+                
         }
     }
 }
