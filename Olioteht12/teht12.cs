@@ -12,15 +12,15 @@ namespace Olioteht12
         static void Main(string[] args)
         {
             int number;
-            int[] table = new int[5];
+            int[] array = new int[5];
             
-            for (int i = 0; i < table.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
                 Console.Write("Give a number: ");
                 int.TryParse(Console.ReadLine(), out number);
-                table[i] = number;
+                array[i] = number;
             }
-            Console.WriteLine("Numbers are " + table[4] + ", " + table[3] + ", " + table [2] + ", " + table[1] + ", " + table[0]); //miten tämä lyhyemmin
+            Console.WriteLine("Numbers are " + array[4] + ", " + array[3] + ", " + array[2] + ", " + array[1] + ", " + array[0]); //miten tämä lyhyemmin
         }
     }
 }

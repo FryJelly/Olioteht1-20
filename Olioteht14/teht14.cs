@@ -12,13 +12,15 @@ namespace Olioteht14
         static void Main(string[] args)
         {
             int[] grades = new int[8];
-            int number;
+            int number = 0;
             for (int i = 0; i < grades.Length; i++)
-            {
-                Console.WriteLine("Give grades: ");
-                int.TryParse(Console.ReadLine(), out number);
-                grades[i] = number;
+            { 
+                        Console.Write("Give grades: ");
+                        int.TryParse(Console.ReadLine(), out number);
+                        grades[i] = number;
             }
+            Console.WriteLine("Grades: ");
+            
         }
     }
 }
