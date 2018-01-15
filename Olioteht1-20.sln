@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht12", "Olioteht12\Ol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht13", "Olioteht13\Olioteht13.csproj", "{1B0F1AA9-204D-4360-B89A-6A4BB642EE0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht14", "Olioteht14\Olioteht14.csproj", "{3EDCEBAF-8BAD-4C34-99F7-F5D7F15D49DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{1B0F1AA9-204D-4360-B89A-6A4BB642EE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B0F1AA9-204D-4360-B89A-6A4BB642EE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B0F1AA9-204D-4360-B89A-6A4BB642EE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EDCEBAF-8BAD-4C34-99F7-F5D7F15D49DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDCEBAF-8BAD-4C34-99F7-F5D7F15D49DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDCEBAF-8BAD-4C34-99F7-F5D7F15D49DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDCEBAF-8BAD-4C34-99F7-F5D7F15D49DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
