@@ -21,12 +21,35 @@ namespace Olioteht15
 {
     class teht15
     {
-        static void Main(string[] args)
-        {
-            int number = 0;
-            Console.Write("Give a number: ");
-            int.TryParse(Console.ReadLine(), out number);
 
+        static void Main()
+        {
+            int height, starNumber, spaceNumber;
+            int heightCount, spaceCount, starCount, trunkCount, trunkSpaceCount;
+
+            Console.Write("Enter tree height: ");
+            int.TryParse(Console.ReadLine(), out height);
+
+            for (heightCount = 1; heightCount <= height; heightCount++)
+            {
+                starNumber = heightCount * 2 - 1;
+                spaceNumber = heightCount + height - starNumber;
+
+                for (spaceCount = 0; spaceCount < spaceNumber; spaceCount++)
+                    Console.Write(" ");
+
+                for (starCount = 0; starCount < starNumber; starCount++)
+                    Console.Write("*");
+
+                Console.Write("\n");
+            }
+
+            for (trunkCount = 0; trunkCount < 2; trunkCount++)
+            {
+                for (trunkSpaceCount = 0; trunkSpaceCount < (height * 2 + 1) / 2; trunkSpaceCount++)
+                    Console.Write(" ");
+                    Console.WriteLine("*");
+            }
         }
     }
 }

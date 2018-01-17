@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*Tee tekstipohjainen Hirsipuu-peli. Voit kovakoodata arvattavan sanan ja toteuta looppi, jossa käyttäjältä kysytään seuraavaa kirjainta.
+ *Muista näyttää aina kirjaimen jälkeen oikein arvatut kirjaimet sanan oikealla kohdalla (käytä esim _-alaviivaa ei arvattujen kirjainten kohdalla).
+ *Voit näyttää myös jo arvatut ei käytetyt -kirjaimet. Päätä itse milloin pelaaja joutuu hirteen. */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -73,12 +76,11 @@ namespace ConsoleApplication6
             }
 
             if (won)
+            {
                 Console.WriteLine("You won!");
+            }
             else
                 Console.WriteLine("You lost! It was '{0}'", wordToGuess);
-
-            Console.Write("Press ENTER to exit...");
-            Console.ReadLine();
         }
     }
 }

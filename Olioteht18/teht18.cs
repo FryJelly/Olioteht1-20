@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Tee ohjelma, joka kysyy käyttäjältä merkkijonon (lause). Sovelluksen tulee ilmoittaa käyttäjälle oliko annettu merkkijono palidromi. 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace Olioteht18
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Toteuta jokin oma villi-ideasi ja yllätä opettaja toteutuksellasi. 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace Olioteht20
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
