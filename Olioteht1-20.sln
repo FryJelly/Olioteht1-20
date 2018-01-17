@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht1", "Olioteht1-20\Olioteht1.csproj", "{E62C8798-A5A4-40C0-B3FB-6A4C2C189052}"
 EndProject
@@ -30,6 +30,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht13", "Olioteht13\Olioteht13.csproj", "{1B0F1AA9-204D-4360-B89A-6A4BB642EE0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht14", "Olioteht14\Olioteht14.csproj", "{3EDCEBAF-8BAD-4C34-99F7-F5D7F15D49DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht15", "Olioteht15\Olioteht15.csproj", "{DD0164CF-2857-4409-8DED-27ABBBED924F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht19", "Olioteht19\Olioteht19.csproj", "{1BDF159C-1436-4E3A-8418-3D6ABEBFCA04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht16", "Olioteht16\Olioteht16.csproj", "{82F3DDE9-F2FB-4FAF-95ED-DB099BAC28B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht17", "Olioteht17\Olioteht17.csproj", "{7F3A32EC-C28B-49E3-892C-96BCDC2A42FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht18", "Olioteht18\Olioteht18.csproj", "{549D6A71-3547-463C-A66E-B4DD1AB20E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olioteht20", "Olioteht20\Olioteht20.csproj", "{5080905F-4FD4-497B-8D8E-B943515A3A4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +105,30 @@ Global
 		{3EDCEBAF-8BAD-4C34-99F7-F5D7F15D49DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EDCEBAF-8BAD-4C34-99F7-F5D7F15D49DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EDCEBAF-8BAD-4C34-99F7-F5D7F15D49DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0164CF-2857-4409-8DED-27ABBBED924F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0164CF-2857-4409-8DED-27ABBBED924F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0164CF-2857-4409-8DED-27ABBBED924F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0164CF-2857-4409-8DED-27ABBBED924F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDF159C-1436-4E3A-8418-3D6ABEBFCA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDF159C-1436-4E3A-8418-3D6ABEBFCA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDF159C-1436-4E3A-8418-3D6ABEBFCA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDF159C-1436-4E3A-8418-3D6ABEBFCA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F3DDE9-F2FB-4FAF-95ED-DB099BAC28B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F3DDE9-F2FB-4FAF-95ED-DB099BAC28B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F3DDE9-F2FB-4FAF-95ED-DB099BAC28B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F3DDE9-F2FB-4FAF-95ED-DB099BAC28B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F3A32EC-C28B-49E3-892C-96BCDC2A42FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3A32EC-C28B-49E3-892C-96BCDC2A42FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3A32EC-C28B-49E3-892C-96BCDC2A42FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3A32EC-C28B-49E3-892C-96BCDC2A42FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549D6A71-3547-463C-A66E-B4DD1AB20E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549D6A71-3547-463C-A66E-B4DD1AB20E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549D6A71-3547-463C-A66E-B4DD1AB20E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549D6A71-3547-463C-A66E-B4DD1AB20E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5080905F-4FD4-497B-8D8E-B943515A3A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5080905F-4FD4-497B-8D8E-B943515A3A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5080905F-4FD4-497B-8D8E-B943515A3A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5080905F-4FD4-497B-8D8E-B943515A3A4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
