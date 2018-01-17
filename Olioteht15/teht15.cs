@@ -23,7 +23,10 @@ namespace Olioteht15
     {
         static void Main(string[] args)
         {
-            
+            int number = 0;
+            Console.Write("Give a number: ");
+            int.TryParse(Console.ReadLine(), out number);
+
         }
     }
 }
