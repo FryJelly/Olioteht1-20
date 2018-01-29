@@ -10,6 +10,10 @@ namespace Teht1
     {
         static void Main(string[] args)
         {
+            TestBed test = new TestBed();
+            
+            
+
         }
     }
 }

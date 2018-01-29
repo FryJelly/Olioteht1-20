@@ -6,14 +6,24 @@ using System.Threading.Tasks;
 
 namespace Teht1
 {
-    class ItMath
+     public class ItMath
     {
-        public int number;
-        public bool onkoluku;
-        bool OnkoLuku(string syote)
+        public static bool onkoluku;
+        public static bool OnkoLuku(string input)
         {
+            double retNum;
+            bool onkoluku = Double.TryParse(Convert.ToString("asd"), System.Globalization.NumberStyles.Any, System.Globalization.NumberFormatInfo.InvariantInfo, out retNum);
+            return onkoluku;
             
-            return true;
+        }
+
+    }
+    public class TestBed
+    {
+        public static void Testing()
+        {
+            Console.WriteLine("S: {0}");
+
         }
     }
 }
