@@ -20,10 +20,12 @@ namespace Teht1
     }
     public class TestBed
     {
-        public static void Testing()
+        public static string Testing()
         {
-            Console.WriteLine("S: {0}");
-
+            string input = Console.ReadLine();
+            return input;
         }
+
+       
     }
 }
