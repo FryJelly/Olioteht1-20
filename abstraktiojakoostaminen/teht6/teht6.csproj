@@ -4,13 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{00D6D0B9-2EB8-4A25-97CC-44A0F832FF45}</ProjectGuid>
+    <ProjectGuid>{D68811E0-7D1D-40DF-8314-E9AADC67F1F2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>teht3</RootNamespace>
-    <AssemblyName>teht3</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>teht6</RootNamespace>
+    <AssemblyName>teht6</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

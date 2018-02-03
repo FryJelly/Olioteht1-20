@@ -4,13 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7305759D-091A-42BB-8974-63AD4A9E7E0E}</ProjectGuid>
+    <ProjectGuid>{0F4FC8A9-E990-4E36-9DC8-9A488898EBD1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>teht2</RootNamespace>
-    <AssemblyName>teht2</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>teht5</RootNamespace>
+    <AssemblyName>teht5</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,12 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fridge.cs" />
-    <Compile Include="Drinks.cs" />
-    <Compile Include="Food.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Ingredients.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
