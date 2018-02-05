@@ -19,7 +19,34 @@ namespace teht5
     {
         static void Main(string[] args)
         {
+            Human human = new Human();
+            human.Age = 15;
+            human.Name = "Teenager1";
+            human.Weight = "37kg";
+            human.Height = 160;
 
+            Adult adult = new Adult();
+            adult.Age = 25;
+            adult.Name = "Adult1";
+            adult.Weight = "65kg";
+            adult.Height = 180;
+            adult.Car = "Toyota";
+
+            Baby baby = new Baby();
+            baby.Age = 1;
+            baby.Name = "Babby1";
+            baby.Weight = "6,5kg";
+            baby.Height = 50;
+            baby.Diaper = "Pampers";
+
+            human.PrintData();
+            human.Move();
+
+            adult.PrintData();
+            adult.Move();
+
+            baby.PrintData();
+            baby.Move();
         }
     }
 }

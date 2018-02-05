@@ -9,11 +9,10 @@ namespace teht5
     abstract class Mammal
     {
         public int Age { get; set; }
-        
 
-        public void Move()
-        {
 
-        }
+        public abstract void Move();
+
+        public abstract void PrintData();
     }
 }
