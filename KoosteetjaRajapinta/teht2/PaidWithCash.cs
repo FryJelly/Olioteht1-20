@@ -10,17 +10,28 @@ namespace teht2
     {
         public float Register { get; set; }
         public float Amount { get; set; }
-        string ShowTransaction()
+        public float TotalCash;
+        private int BillNumber = 1;
+        private DateTime Date;
+        public string ShowTransaction()
         {
-            Console.WriteLine("Paid with cash:")
+            Console.WriteLine("Paid with cash: billnumber " + BillNumber++ + " date: " + Date + " amount: " + Amount);
+            return "shown";
         }
-        float GetAmount()
+        public float GetAmount()
         {
-            
+            float amount;
+            Console.WriteLine("Enter payment with cash: ");
+            float.TryParse(Console.ReadLine(), out amount);
+            Date = DateTime.Now;
+            Amount = amount;
+            TotalCash = Amount + TotalCash;
+            return Amount;
         }
         public float ShowCash()
         {
-            
+            Console.WriteLine("Total cash in register: " + TotalCash);
+            return TotalCash;
         }
     }
 }
