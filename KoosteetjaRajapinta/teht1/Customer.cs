@@ -8,5 +8,12 @@ namespace teht1
 {
     class Customer
     {
+        public string Name { get; set; }
+
+        public void ShowOrders()
+        {
+
+        }
+
     }
 }

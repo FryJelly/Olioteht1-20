@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace teht1
 {
-    class Order
+    class Test
     {
-        public string OrderID { get; set; }
-
-
     }
 }

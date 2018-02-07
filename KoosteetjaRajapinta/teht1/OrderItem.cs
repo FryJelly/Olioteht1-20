@@ -8,5 +8,8 @@ namespace teht1
 {
     class OrderItem
     {
+        public string ItemName { get; set; }
+
+
     }
 }
