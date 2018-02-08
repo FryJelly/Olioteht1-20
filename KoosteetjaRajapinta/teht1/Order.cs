@@ -22,7 +22,7 @@ namespace teht1
         {
             foreach (OrderItem n in OrderItems)
             {
-                Console.WriteLine(n.ToString());
+                Console.WriteLine();
             }
         }
 

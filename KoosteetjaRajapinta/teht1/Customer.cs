@@ -22,7 +22,13 @@ namespace teht1
             Console.WriteLine(Name);
             foreach (Order i in Orders)
             {
-                Console.WriteLine(i.ToString());
+                Console.Write("Order ID: " + i.OrderID + " Order items: ");
+                foreach(OrderItem n in i.OrderItems)
+                {
+                    Console.WriteLine(n.ItemName);
+                }
+                
+
             }
         }
 

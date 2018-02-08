@@ -32,6 +32,7 @@ namespace teht2
             cash.ShowCash();
             TotalSales = card.TotalCard + cash.TotalCash;
             Console.WriteLine("Total sales today " + DateTime.Now.DayOfWeek + " " + DateTime.Now.Day + ". " + DateTime.Now.Month + ". " + DateTime.Now.Year + " is " + TotalSales);
+            Console.WriteLine(cash.ShowTransaction());
         }
     }
 }
