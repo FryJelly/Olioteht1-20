@@ -14,18 +14,19 @@ namespace teht1
 
         public Tyre(string model, string type, string tyresize)
         {
-            Model = model;
-            Type = type;
-            TyreSize = tyresize;
+            this.Model = model;
+            this.Type = type;
+            this.TyreSize = tyresize;
         }
 
         public void PrintTyre()
         {
-            Console.WriteLine("Tyres:");
+            
+            /*Console.WriteLine("Tyres:");
             Console.WriteLine("-Name: " + Type + " Model: " + Model + " TyreSize: " + TyreSize);
             Console.WriteLine("-Name: " + Type + " Model: " + Model + " TyreSize: " + TyreSize);
             Console.WriteLine("-Name: " + Type + " Model: " + Model + " TyreSize: " + TyreSize);
-            Console.WriteLine("-Name: " + Type + " Model: " + Model + " TyreSize: " + TyreSize);
+            Console.WriteLine("-Name: " + Type + " Model: " + Model + " TyreSize: " + TyreSize);*/
         }
         ~Tyre()
         {

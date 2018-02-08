@@ -12,6 +12,7 @@ namespace teht1
         {
             Vehicle Porsche = new Vehicle("Porsche", "model 911");
             Tyre Nokia = new Tyre("Hakkapeliitta", "Nokia", "205R16");
+
             Porsche.Tyres.Add(Nokia);
             Porsche.Tyres.Add(Nokia);
             Porsche.Tyres.Add(Nokia);

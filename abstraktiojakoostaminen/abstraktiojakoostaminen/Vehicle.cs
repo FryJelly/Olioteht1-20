@@ -8,14 +8,14 @@ namespace teht1
 {
     class Vehicle
     {
-        public List<Tyre> Tyres { get; set; }
+        public List<Tyre> Tyres;
         public string Name { get; set; }
         public string Model { get; set; }
 
         public Vehicle(string name, string model)
         {
-            Model = model;
-            Name = name;
+            this.Model = model;
+            this.Name = name;
             this.Tyres = new List<Tyre>();
         }
 
@@ -26,7 +26,10 @@ namespace teht1
         public void PrintVehicle()
         {
             Console.WriteLine("Vehicle name: " + Name + Model);
-            
+            foreach (Tyre tyre in Tyres)
+            {
+                Console.WriteLine(tyre);
+            }
         }
 
     }
