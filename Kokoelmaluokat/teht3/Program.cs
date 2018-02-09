@@ -10,11 +10,41 @@ namespace teht3
     {
         static void Main(string[] args)
         {
-            List<Card> cards = new List<Card>();
 
-            foreach (Card card in cards)
+            try
             {
-                Console.WriteLine((card.Pos+1) + "Kortti on " + card.House + "#" + card.Number);
+                List<Card> cards = new List<Card>();
+                for (int i = 1; i > 0 && i < 14; i++)
+                {
+                    cards.Add(new Card { House = "Spade", Number = i });
+                }
+                for (int i = 1; i > 0 && i < 14; i++)
+                {
+                    cards.Add(new Card { House = "Heart", Number = i });
+                }
+                for (int i = 1; i > 0 && i < 14; i++)
+                {
+                    cards.Add(new Card { House = "Diamond", Number = i });
+                }
+                for (int i = 1; i > 0 && i < 14; i++)
+                {
+                    cards.Add(new Card { House = "Club", Number = i });
+                }
+                foreach (Card card in cards)
+                {
+                    Console.WriteLine((cards.IndexOf(card) + 1) + " Kortti on " + card.House + "#" + card.Number);
+                }
+                cards.Shuffle();
+                Console.WriteLine("Deck has been shuffled: ");
+                foreach (Card card in cards)
+                {
+                    Console.WriteLine((cards.IndexOf(card) + 1) + " Kortti on " + card.House + "#" + card.Number);
+                }
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Failed");
+                throw;
             }
         }
     }
