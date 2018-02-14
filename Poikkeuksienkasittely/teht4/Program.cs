@@ -12,8 +12,8 @@ namespace teht4
         static void Main(string[] args)
         {
 
-                System.IO.StreamWriter fileint = new System.IO.StreamWriter(@"F:\K9105\fileint.txt");
-                System.IO.StreamWriter filefloat = new System.IO.StreamWriter(@"F:\K9105\filefloat.txt");
+                System.IO.StreamWriter fileInt = new System.IO.StreamWriter(@"F:\K9105\fileint.txt");
+                System.IO.StreamWriter fileDouble = new System.IO.StreamWriter(@"F:\K9105\filedouble.txt");
 
 
             while (true)
@@ -24,16 +24,16 @@ namespace teht4
                 if (int.TryParse (input, out int i))
                 {
                     Console.WriteLine("Int");
-                    fileint.WriteLine(input);
-                    fileint.Close();
+                    fileInt.WriteLine(input);
+                    
                 }
                 else
                 {
-                    if (float.TryParse(input, out float f))
+                    if (double.TryParse(input, out double f))
                     {
-                        Console.WriteLine("Float");
-                        filefloat.WriteLine(input);
-                        filefloat.Close();
+                        Console.WriteLine("Double");
+                        fileDouble.WriteLine(input);
+                        
                     }
                     else
                     {
@@ -41,6 +41,21 @@ namespace teht4
                     }
                 }
             }
+            fileInt.Close();
+            fileDouble.Close();
+            Console.WriteLine("Integers: ");
+            string ints = @"F:\K9105\fileint.txt";
+            foreach (string s in File.ReadAllLines(ints))
+            {
+                Console.WriteLine(s);
+            }
+            Console.WriteLine("Doubles: ");
+            string doubles = @"F:\K9105\filedouble.txt";
+            foreach (string s in File.ReadAllLines(doubles))
+            {
+                Console.WriteLine(s);
+            }
+
 
         }
     }
