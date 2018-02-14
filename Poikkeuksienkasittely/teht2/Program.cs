@@ -11,31 +11,38 @@ namespace teht2
     {
         static void Main(string[] args)
         {
-            string text = @"F:\K9105\names.txt";
-            int rows = 0; //rowcount
-            var nameCount = new Dictionary<string, int>();
+            if (File.Exists(@"F:\K9105\names.txt"))
+            {
+                string text = @"F:\K9105\names.txt";
+                int rows = 0; //rowcount
+                var nameCount = new Dictionary<string, int>();
 
-            foreach (string s in File.ReadAllLines(text))
-            {
-                if (nameCount.ContainsKey(s))
+                foreach (string s in File.ReadAllLines(text))
                 {
-                    rows++;
-                    nameCount[s] = nameCount[s] + 1;
+                    if (nameCount.ContainsKey(s))
+                    {
+                        rows++;
+                        nameCount[s] = nameCount[s] + 1;
+                    }
+                    else
+                    {
+                        rows++;
+                        nameCount.Add(s, 1);
+                    }
                 }
-                else
+
+                // printing
+                Console.WriteLine("Löytyi " + rows + " riviä, ja " + nameCount.Count() + " nimeä sortattuna: ");
+                foreach (var pair in nameCount.OrderBy(x => x.Key))
                 {
-                    rows++;
-                    nameCount.Add(s, 1);
+                    Console.WriteLine("Nimi {0} esiintyy {1} kertaa", pair.Key, pair.Value);
                 }
+                Console.ReadKey(); 
             }
-            
-            // printing
-            Console.WriteLine("Löytyi " + rows + " riviä, ja " + nameCount.Count() + " nimeä sortattuna: ");
-            foreach (var pair in nameCount.OrderBy(x => x.Key))
+            else
             {
-                Console.WriteLine("Nimi {0} esiintyy {1} kertaa", pair.Key, pair.Value);
+                Console.WriteLine("File doesn't exist!");
             }
-            Console.ReadKey();
         }
     }
 }
