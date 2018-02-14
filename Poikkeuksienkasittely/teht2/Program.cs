@@ -11,18 +11,31 @@ namespace teht2
     {
         static void Main(string[] args)
         {
-            try
-            {
-                Names names = new Names();
+            string text = @"F:\K9105\names.txt";
+            int rows = 0; //rowcount
+            var nameCount = new Dictionary<string, int>();
 
-                names.PrintNames();
-                Console.ReadKey();
-            }
-            catch (Exception)
+            foreach (string s in File.ReadAllLines(text))
             {
-
-                throw;
+                if (nameCount.ContainsKey(s))
+                {
+                    rows++;
+                    nameCount[s] = nameCount[s] + 1;
+                }
+                else
+                {
+                    rows++;
+                    nameCount.Add(s, 1);
+                }
             }
+            
+            // printing
+            Console.WriteLine("Löytyi " + rows + " riviä, ja " + nameCount.Count() + " nimeä sortattuna: ");
+            foreach (var pair in nameCount.OrderBy(x => x.Key))
+            {
+                Console.WriteLine("Nimi {0} esiintyy {1} kertaa", pair.Key, pair.Value);
+            }
+            Console.ReadKey();
         }
     }
 }
