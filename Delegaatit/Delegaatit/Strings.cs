@@ -8,6 +8,8 @@ namespace Delegaatit
 {
     class Strings
     {
+        delegate void StringCapital(string capital);
 
+        
     }
 }
