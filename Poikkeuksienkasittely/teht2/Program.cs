@@ -11,9 +11,9 @@ namespace teht2
     {
         static void Main(string[] args)
         {
-            if (File.Exists(@"F:\K9105\names.txt"))
+            if (File.Exists(@"D:\K9105\names.txt"))
             {
-                string text = @"F:\K9105\names.txt";
+                string text = @"D:\K9105\names.txt";
                 int rows = 0; //rowcount
                 var nameCount = new Dictionary<string, int>();
 

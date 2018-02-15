@@ -12,8 +12,8 @@ namespace teht4
         static void Main(string[] args)
         {
 
-                System.IO.StreamWriter fileInt = new System.IO.StreamWriter(@"F:\K9105\fileint.txt");
-                System.IO.StreamWriter fileDouble = new System.IO.StreamWriter(@"F:\K9105\filedouble.txt");
+                System.IO.StreamWriter fileInt = new System.IO.StreamWriter(@"D:\K9105\fileint.txt");
+                System.IO.StreamWriter fileDouble = new System.IO.StreamWriter(@"D:\K9105\filedouble.txt");
 
 
             while (true)
@@ -44,13 +44,13 @@ namespace teht4
             fileInt.Close();
             fileDouble.Close();
             Console.WriteLine("Integers: ");
-            string ints = @"F:\K9105\fileint.txt";
+            string ints = @"D:\K9105\fileint.txt";
             foreach (string s in File.ReadAllLines(ints))
             {
                 Console.WriteLine(s);
             }
             Console.WriteLine("Doubles: ");
-            string doubles = @"F:\K9105\filedouble.txt";
+            string doubles = @"D:\K9105\filedouble.txt";
             foreach (string s in File.ReadAllLines(doubles))
             {
                 Console.WriteLine(s);
