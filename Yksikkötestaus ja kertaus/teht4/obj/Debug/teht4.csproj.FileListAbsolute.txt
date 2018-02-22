@@ -1,0 +1,6 @@
+C:\Users\RyzenPC\Source\Repos\Olioteht1-20\Yksikkötestaus ja kertaus\teht4\bin\Debug\teht4.exe.config
+C:\Users\RyzenPC\Source\Repos\Olioteht1-20\Yksikkötestaus ja kertaus\teht4\bin\Debug\teht4.exe
+C:\Users\RyzenPC\Source\Repos\Olioteht1-20\Yksikkötestaus ja kertaus\teht4\bin\Debug\teht4.pdb
+C:\Users\RyzenPC\Source\Repos\Olioteht1-20\Yksikkötestaus ja kertaus\teht4\obj\Debug\teht4.csproj.CoreCompileInputs.cache
+C:\Users\RyzenPC\Source\Repos\Olioteht1-20\Yksikkötestaus ja kertaus\teht4\obj\Debug\teht4.exe
+C:\Users\RyzenPC\Source\Repos\Olioteht1-20\Yksikkötestaus ja kertaus\teht4\obj\Debug\teht4.pdb

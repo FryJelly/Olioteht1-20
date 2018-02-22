@@ -10,6 +10,9 @@ namespace teht4
     {
         static void Main(string[] args)
         {
+            Shapes sh = new Shapes();
+            sh.CreateShapes();
+            sh.PrintShapes();
         }
     }
 }

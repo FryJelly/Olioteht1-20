@@ -10,9 +10,9 @@ namespace teht4
     {
         public string Name;
 
-        abstract public void Area();
-        abstract public void Circumference();
+        abstract public double Area();
+        abstract public double Circumference();
 
-
+        //
     }
 }
