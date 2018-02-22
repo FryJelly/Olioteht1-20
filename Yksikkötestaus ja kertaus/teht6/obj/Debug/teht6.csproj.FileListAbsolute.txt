@@ -1,0 +1,7 @@
+C:\Users\RyzenPC\Source\Repos\Olioteht1-20\Yksikkötestaus ja kertaus\teht6\bin\Debug\teht6.exe.config
+C:\Users\RyzenPC\Source\Repos\Olioteht1-20\Yksikkötestaus ja kertaus\teht6\bin\Debug\teht6.exe
+C:\Users\RyzenPC\Source\Repos\Olioteht1-20\Yksikkötestaus ja kertaus\teht6\bin\Debug\teht6.pdb
+C:\Users\RyzenPC\Source\Repos\Olioteht1-20\Yksikkötestaus ja kertaus\teht6\obj\Debug\teht6.csprojResolveAssemblyReference.cache
+C:\Users\RyzenPC\Source\Repos\Olioteht1-20\Yksikkötestaus ja kertaus\teht6\obj\Debug\teht6.csproj.CoreCompileInputs.cache
+C:\Users\RyzenPC\Source\Repos\Olioteht1-20\Yksikkötestaus ja kertaus\teht6\obj\Debug\teht6.exe
+C:\Users\RyzenPC\Source\Repos\Olioteht1-20\Yksikkötestaus ja kertaus\teht6\obj\Debug\teht6.pdb

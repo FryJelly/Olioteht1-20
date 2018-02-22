@@ -10,6 +10,10 @@ namespace teht6
     {
         static void Main(string[] args)
         {
+            Invoice invoice = new Invoice();
+
+            invoice.CreateItems();
+            invoice.PrintInvoice();
         }
     }
 }
