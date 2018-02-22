@@ -10,6 +10,7 @@ namespace teht3
     {
         public string TeamName { get; set; }
         public string City { get; set; }
+        public List<Player> players;
 
         
 
