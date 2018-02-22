@@ -10,10 +10,16 @@ namespace Teht1
     {
         static void Main(string[] args)
         {
-            TestBed test = new TestBed();
-            
-            
+            TestBed testbed = new TestBed();
 
+            while (true)
+            {
+                //teht1
+                //testbed.TestBedFloat();
+
+                //teht2
+                testbed.TestBedDate();
+            }
         }
     }
 }

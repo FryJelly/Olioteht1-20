@@ -6,26 +6,32 @@ using System.Threading.Tasks;
 
 namespace Teht1
 {
-     public class ItMath
+    public class ItMath
     {
-        public static bool onkoluku;
-        public static bool OnkoLuku(string input)
+        public static bool IsNumber(string input)
         {
-            double retNum;
-            bool onkoluku = Double.TryParse(Convert.ToString("asd"), System.Globalization.NumberStyles.Any, System.Globalization.NumberFormatInfo.InvariantInfo, out retNum);
-            return onkoluku;
-            
+            float number;
+            bool result = float.TryParse(input, out number);
+            Console.Write("Input " + input + " is a number: ");
+            return result;
         }
 
-    }
-    public class TestBed
-    {
-        public static string Testing()
+        public static bool IsDate(string input)
         {
-            string input = Console.ReadLine();
-            return input;
-        }
+            if (input.Contains(','))
+            {
+                Console.Write("Input " + input + " is a date: ");
+                return false;
+            }
+            else
+            {
+                var dateFormats = new[] { "dd.MM.yyyy", "dd.MM.yy" };
+                DateTime date;
+                bool result = DateTime.TryParse(input, out date);
+                Console.Write("Input " + input + " is a date: ");
+                return result;
+            }
 
-       
+        }
     }
 }
